@@ -1,0 +1,27 @@
+
+.main-header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.header {
+   display: flex; 
+   height: 5rem;
+   background-color: #1d1d1f;
+   color: white;
+   width: 100%;
+}
+
+.main{
+    background-color: beige;
+    height: 80vh;
+}
+
+.selector {
+    height: 100%;
+    width: 20%;
+    background-color: #423e42;
+}
