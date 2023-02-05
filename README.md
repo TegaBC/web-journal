@@ -1,11 +1,10 @@
 # web-journal
 
 A simple journal via the web. Locally saved.
+Site: https://tegabc.github.io/web-journal/
 
-soon will add:
+next up:
 - better looking design
-- deletion of journal entries
+- allowing deletion of journal entries
+- mobile responsiveness
 
-later will add:
-- better reponsiveness on mobile
-- saving to the cloud
