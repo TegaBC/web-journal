@@ -5,18 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
     <title>Web Journal</title>
 </head>
 <body>
     <div class="header">
         <div class="main-header">
-            <h1>Journal</h1>
+            <h1>MyJournal</h1>
             <p>By Tega</p>
         </div>
     </div>
     <div class="main">
-        <div class="selector"></div>
-        <div class="editor"></div>
+        <div class="selector">
+            <p>Journal Entries</p>
+           <!-- <button class="entry-selector">
+                10th Dec
+            </button> -->
+
+
+        </div>
+        <div class="editor">
+            <!--<h1 class="Title">10th Decemeber 2022</h1>-->
+            <input type="date" id="date-picker">
+            <textarea name="entry" id="entry" cols="30" rows="10" placeholder="Write your journal entry here"></textarea>
+            <div class="controls">
+                <!--<button class="control-buttons" id="edit">Edit</button>-->
+                <button class="control-buttons" id="save">Save</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>
