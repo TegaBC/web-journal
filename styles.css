@@ -7,6 +7,7 @@
 
 body {
     background-color: #1d1d1f;
+    margin: 0;
 }
 
 h1 {
@@ -24,6 +25,11 @@ h1 {
 
 #save-edit {
     display: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .text-editor, .preview {
@@ -65,7 +71,6 @@ h1 {
 }
 
 .main{
-    border-radius: 0rem 1rem 1rem 0rem;
     background-color: #d8d8d8;
     height: 80vh;
     display: flex;
