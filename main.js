@@ -108,6 +108,10 @@ function saveEntry() {
         alert("An entry for this date has already been saved")
         return
     }
+    else if (ENTRY_TEXT.value == "") {
+        alert("Entries can not be empty.")
+        return
+    }
 
     // bind the current date to the text saved & save
     storage[currentDate] = ENTRY_TEXT.value
