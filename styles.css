@@ -6,12 +6,17 @@
 }
 
 body {
-    background-color: #1d1d1f;
+    background-color: #29292c;
     margin: 0;
 }
 
 h1 {
     font-family: var(--default-font);
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .preview-control-wrapper {
@@ -27,10 +32,6 @@ h1 {
     display: none;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
 
 .text-editor, .preview {
     height: 70%;
@@ -68,12 +69,13 @@ a {
    color: white;
    width: 100%;
    font-family: var(--default-font);
+   margin-bottom: 1rem;
 }
 
 .main{
-    background-color: #d8d8d8;
     height: 80vh;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .menu {
@@ -88,13 +90,19 @@ a {
     display: none;
 }
 
+#viewing {
+    color: white;
+}
+
 .editor, .display, .menu {
     min-width: 300px;
-    width: 100%;
+    width: 60vw;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: rgb(68, 64, 68);
+    border-radius: 3rem;
 }
 
 .selector {
@@ -105,8 +113,10 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: scroll;
+    overflow: auto;
     color: white;
+
+    border-radius: 3rem;
     background-color: rgb(68, 64, 68);
 
     font-size: 1.5rem;
